@@ -1,6 +1,6 @@
-# MERN Basic Todo Backend with Authentication
+# MERN Basic Todo application
 
-This is a backend application built using the MERN stack (MongoDB, Express.js,Node.js) to provide a RESTful API for managing todo tasks with user authentication using JWT (JSON Web Tokens).
+This is a application built using the MERN stack (react,MongoDB, Express.js,Node.js) to provide a RESTful API for managing todo tasks with user authentication using JWT (JSON Web Tokens).
 
 ## Features
 
