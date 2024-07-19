@@ -18,7 +18,7 @@ const Login: React.FC = () => {
       const userData = { email, password };
       const response = await userService.login(userData);
       console.log('Login successful:', response);
-      navigate('/dashboard'); // Navigate to dashboard upon successful login
+      navigate('/dashboard'); 
     } catch (error) {
       console.error('Login failed:', error.response ? error.response.data : error.message);
       setError('Invalid email or password. Please try again.');

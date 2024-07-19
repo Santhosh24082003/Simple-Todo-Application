@@ -17,7 +17,7 @@ const postGoals = asyncHandler(async (req, res) => {
 
     const goal = await Goal.create({
         text: req.body.text,
-        user: req.user.id // Associate the goal with the current user
+        user: req.user.id 
     });
 
     res.status(201).json(goal);
@@ -31,7 +31,7 @@ const putGoals = asyncHandler(async (req, res) => {
         throw new Error('Goal not found');
     }
 
-    // Optionally, you can check if the user is authorized to update this goal
+    
     if (goal.user.toString() !== req.user.id) {
         res.status(401);
         throw new Error('User not authorized');
@@ -52,7 +52,7 @@ const deleteGoals = asyncHandler(async (req, res) => {
         throw new Error('Goal not found');
     }
 
-    // Optionally, you can check if the user is authorized to delete this goal
+
     if (goal.user.toString() !== req.user.id) {
         res.status(401);
         throw new Error('User not authorized');
