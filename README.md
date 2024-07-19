@@ -8,11 +8,6 @@ This is a backend application built using the MERN stack (MongoDB, Express.js,No
 - CRUD operations for managing todo tasks
 - Secure routes for authenticated users
 
-# Your connections
-
-MONGODB_URI= Your MongoDB connection string 
-
-JWT_SECRET= Your JWT secret key 
 
 ## Installation
 
@@ -20,3 +15,41 @@ JWT_SECRET= Your JWT secret key
 
 ```bash
 git clone https://github.com/yourusername/mern-todo-backend.git
+
+2. Getting Started
+
+
+Backend:
+Navigate to the backend directory:
+
+bash
+Copy code
+cd backend
+Install the dependencies:
+
+bash
+Copy code
+npm install
+Start the server:
+
+bash
+Copy code
+npm run start
+
+Frontend:
+
+Navigate to the frontend directory:
+
+bash
+Copy code
+cd frontend
+Install the dependencies:
+
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm run dev
