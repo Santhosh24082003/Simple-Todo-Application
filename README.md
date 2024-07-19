@@ -20,36 +20,21 @@ git clone https://github.com/yourusername/mern-todo-backend.git
 
 
 Backend:
-Navigate to the backend directory:
 
-bash
-Copy code
-cd backend
 Install the dependencies:
-
-bash
-Copy code
 npm install
-Start the server:
 
-bash
-Copy code
+Start the server:
 npm run start
 
 Frontend:
 
 Navigate to the frontend directory:
 
-bash
-Copy code
 cd frontend
+
 Install the dependencies:
-
-bash
-Copy code
 npm install
-Start the development server:
 
-bash
-Copy code
+Start the development server:
 npm run dev
