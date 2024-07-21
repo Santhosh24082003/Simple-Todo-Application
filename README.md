@@ -14,7 +14,8 @@ This is a application built using the MERN stack (react,MongoDB, Express.js,Node
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/mern-todo-backend.git
+git clone
+https://github.com/Santhosh24082003/Todo-application
 
 2. Getting Started
 
